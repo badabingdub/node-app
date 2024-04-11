@@ -18,7 +18,7 @@ jobs:
       name: Build and push Docker Image
       with:
         image: badabingdub/github_demo
-        tags: v1, latest
+        tags: v1
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
