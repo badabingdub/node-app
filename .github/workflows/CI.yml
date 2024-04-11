@@ -14,7 +14,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Build and push Docker Image
       with:
-        image: docker-hub-repo/github_demo
+        image: badabingdub/github_demo
         tags: v1, latest
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
